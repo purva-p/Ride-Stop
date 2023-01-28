@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1 a{
+   position: absolute;
+   top: 5%;
+   left: 7%;
+}
+h2{
+    position: absolute;
+    top: 20%;
+    left: 45%;
+}
+h3{
+    position: absolute;
+    top: 5%;
+    left: 45%;
+}
+
+
+[data-tab-content]{
+    display: none;
+}
+
+.active[data-tab-content]{
+    display: block;
+}
+
+.tabs{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.tab {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.tab:hover{
+    background-color: wheat;
+    color: black;
+    transition: 0.6s ease;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../—Pngtree—creative\ math\ school\ supplies\ border_5569720.png);
+    height: 220vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+ul{
+    color: white;
+}
+.container{
+    width: 800px ;
+    margin: 50px auto 0;
+    display: table;
+    box-sizing: border-box;
+}
+.row{
+    margin: 10px 0;
+    
+    
+}
+.column{
+    background: #000;
+    display: table-cell;
+    padding: 10px;
+    width: 33.33333%;
+    text-align: center;
+    vertical-align: middle;
+    border-right: 10px solid #fff;
+    border-left: 10px solid #fff;
+}
+
+.row:nth-child(1) .column:nth-child(1)
+{
+    background-color:#596270;
+
+}
+.row:nth-child(1) .column:nth-child(2)
+{
+    background-color: #cf6768;
+}
+.row:nth-child(2) .column:nth-child(1)
+{
+    background-color: #8accc3;
+    
+}
+.row:nth-child(2) .column:nth-child(2)
+{
+    background-color: #00acc1;
+    
+}.row:nth-child(3) .column:nth-child(1)
+{
+    background-color: #FF4350;
+    
+}
+.row:nth-child(3) .column:nth-child(2)
+{
+    background-color: #72768a;
+    
+}
